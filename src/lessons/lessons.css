@@ -1,0 +1,119 @@
+
+
+:root{
+    --blue: #060a90;
+  --white: #fff;
+  --pink: #FDD4D4;
+  --red: #f42829;
+  --gray: #4a4755;
+  --f9: #f9f9f9;
+}
+
+
+
+h1,
+h2 {
+  color: var(--blue);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.courses:first-child {
+  margin-top: 50px;
+}
+.courses > h1 {
+  padding: 15px;
+}
+.lesson_div_2 {
+  padding: 10px 15px;
+  background-color: var(--f9);
+}
+.lesson_div_2 > h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+}
+.card_1 {
+  background-color: var(--white);
+  border-radius: 12px;
+  border: 2px solid rgb(232, 230, 230);
+  padding: 16px;  
+  margin-bottom: 16px;  
+}
+.dis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div  h2{
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+.dis > span{
+    padding: 8px 14px;
+    background-color: var(--pink);
+    color: var(--red);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: 700;
+}
+p {
+    font-size:14px;
+  color: #4a4755;
+  margin-bottom: 8px;
+}
+
+.dis_gap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.dis_gap > svg {
+  color: var(--blue);
+}
+.img_bar {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}   
+.img_bar > img {
+  width: 20px;
+  border-radius: 50%;
+  border: none;
+}
+.img_bar > span{
+    font-size: 14px;
+    color:  var(--gray);
+}
+.button_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button_bar > button > svg {
+  color: var(--white);
+}
+.button_bar > h1 {
+  color: #18ab92;
+  font-size: 18px;
+}
+.button_bar > button {
+  width: 122px;
+  height: 32px;
+  color: var(--white);
+  background-color: var(--blue);
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 12px;
+}

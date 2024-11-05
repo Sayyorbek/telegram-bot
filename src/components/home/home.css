@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 24px;
+}
+.buttons_bar {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(187, 186, 191);
+  padding: 10px;
+  border-radius: 20px;
+}
+.buttons_bar > button {
+  padding: 5px;
+  font-size: 16px;
+  color: rgb(187, 186, 191);
+  background-color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
