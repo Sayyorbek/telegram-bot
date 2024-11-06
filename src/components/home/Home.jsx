@@ -83,7 +83,7 @@ const Home = () => {
         {/* ? location */}
         <div className="cart_4">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.762151677482!2d66.92396777544492!3d39.67756460029653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d19d54b324835%3A0xdf389d78adb91db2!2sIT%20TAT!5e0!3m2!1sru!2s!4v1730894013647!5m2!1sru!2s" width={`100%`} height={`auto`} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.762151677482!2d66.92396777544492!3d39.67756460029653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d19d54b324835%3A0xdf389d78adb91db2!2sIT%20TAT!5e0!3m2!1sru!2s!4v1730894013647!5m2!1sru!2s" width={`100%`} height={`auto`} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" /> 
 
 
         </div>
