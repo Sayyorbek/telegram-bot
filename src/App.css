@@ -16,7 +16,7 @@ i,img:hover {
 .img1,.img2{
   margin-bottom: 50px;
 }
-button{
+button , p, h3, h2{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;

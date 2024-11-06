@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 .container {
+  background-color: rgb(250, 249, 249);
+}
+.menu{
   padding: 24px;
+
 }
 .menu > h4{
   font-weight: 700;
@@ -26,10 +30,70 @@
 .cart_dis > h3{
   margin-bottom: 12px;
 }
-.cart_1 > img{
+.cart > img{
   width: 100%;
+  margin-bottom: 16px;
+}
+.cart_2 > img{
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--blue);
+  background-color: #010520;
+}
+.cart_3 > img{
+  width: 100%;
+  border-radius: 12px;
+}
+iframe{
+  border-radius: 13px;
+}
+
+.cont{
+  background-color: var(--white);
+  margin-top: 81px;
+}
+  
+.cart_5{
+  padding: 24px;
+  
+}
+.cart_5 > h3{
+  font-size: 14px;
+  font-weight: 700;
 
 }
+.cart_5 >p{
+  font-size: 14px;
+  font-weight: 400;
+}
+form{
+  background-color: rgb(249, 249, 250);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e9e9ea;
+}
+.contact > input, select{
+  border-radius: 12px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #e9e9ea;
+  width: 100%;
+  outline: none;
+  /* padding-bottom: 16px; */
+
+}
+.contact > button{
+  width: 100%;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 12px;
+  border: 1px solid var(--blue);
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+
 .buttons_bar {
   max-width: 500px;
   margin: auto;
